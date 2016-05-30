@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Wiki Viewer</title>
+    <meta property="og:image" content="http://s3-us-west-2.amazonaws.com/i.cdpn.io/522296.xVeJXJ.3ee2c8fa-da96-431d-9868-2d57cd4266ff.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="text-center"> Wiki Viewer </h1>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Wiki Logo -->
+    <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="center-children">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Wikimedia_Community_Logo.svg" class="wiki-logo"> </img>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <!-- Search box & buttons -->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="center-children">
+              <input type="text" id="search-box" placeholder="Enter your Search..." autocomplete="off"> </input>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 center-children">
+            <button id="search" class="btn btn-primary buttons">
+              <i class="fa fa-search"> Search </i> 
+            </button>
+            <form target="_blank" action="https://en.wikipedia.org/wiki/Special:Random">
+              <button id="random" class="btn btn-primary buttons"> 
+                <i class="fa fa-random"> Random </i> 
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Search results -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="search-result-container">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+		<script src="js/index.js"></script>
+  </body>
+</html>

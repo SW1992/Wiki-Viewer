@@ -1,0 +1,58 @@
+.center-children {
+  text-align: center;
+  /* center inline elements, like img */
+}
+
+.wiki-logo {
+  height: 9.5em;
+  width: 9.5em; 
+}
+header h1 {
+  color: #ffffff;
+}
+#search-box {
+  margin-top: 0.5em;
+}
+.buttons {
+  color: #ffffff;
+  width: 6.8em;
+}
+#random {
+  margin-right: -8em;
+}
+#search {
+  margin-bottom: -3.8em;
+  margin-left: -8em;
+}
+.search-result-container div {
+  height: 10em;
+  width: 30em;
+  background-color: #ffffff;
+  margin: auto;
+  padding-left: 1em; 
+  padding-right: 1em;
+}
+.search-result-container div:hover {
+  opacity: 0.7;
+}
+.search-result-container a {
+  color: #000000;
+  text-decoration: none;
+}
+.search-result-container h3 {
+  text-align: center;
+}
+body {
+  background-image: url("https://pixabay.com/static/uploads/photo/2015/07/17/22/42/library-849797_960_720.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* makes sure background img covers 
+     whole screen in different browsers */
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+}
+
+
